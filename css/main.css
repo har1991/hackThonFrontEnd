@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(25, 191, 232);
+}
+
+.error{
+    color: rgb(93, 16, 16);
+}
+
+h1{
+    font-size: 25px;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.image{
+    width: 50px;
+    height: auto;
+}
+
