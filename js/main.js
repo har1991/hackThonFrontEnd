@@ -16,8 +16,8 @@
 const routes = [
     {path: '/', name: 'home', component: Accueil},
     {path: '/accueil', name: 'accueil', component: Accueil},
-    {path: '/details', name: 'details', component: Details},
-];
+    {path: '/details', name: 'details', component: Details}
+]
 
 // 3. Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
@@ -32,3 +32,9 @@ const router = new VueRouter({
 const app = new Vue({
     router
 }).$mount('#app');
+
+/* There was a problem with pages: they were dispayed from the middle of the page
+=> this function forces to show the top at first */
+router.afterEach((to, from) => {
+    document.getElementById('app').scrollIntoView()
+  })

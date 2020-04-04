@@ -18,12 +18,12 @@ const Details = {
             <div class="div_nav_accueil">
                 <h1 class="accueil">
                     <router-link class="routeur" to="/">Accueil</router-link> > Appeler avec Skype
-                </h1> <br>
+                </h1>
             </div>
 
 
             <div>
-                <h1 class="title_detail">Appeler avec Skype </h1><br>
+                <h1 class="title_detail">Appeler avec Skype </h1>
             </div>
             <div>
                 <div class="div_image">
@@ -66,7 +66,7 @@ const Details = {
             </div>
         </div>
     </main>
-    <footer class="footer_details">
+    <footer>
     </footer>
 
 </div>

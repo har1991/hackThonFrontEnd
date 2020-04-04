@@ -97,8 +97,8 @@ const Accueil = {
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <router-link :to="{ name: 'details'}">
+                <div class="col-12 col-md-6 col-lg-3">   
+                    <router-link  to="details/">
                         <div class="m_card">
                             <h1>Appeler avec Skype</h1>
                             <div>
@@ -106,7 +106,6 @@ const Accueil = {
                             </div>
                         </div>
                     </router-link>
-
                 </div>
             </div>
         </div>
@@ -236,7 +235,7 @@ data() {
 },
 created() {
    
-    this.fetchData();
+
 },
 methods: {
 
