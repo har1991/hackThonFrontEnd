@@ -22,8 +22,10 @@ const Details = {
         <div class="col-12 col-md-6 col-lg-6">
                 <h1 class = "AppelerTwo" >Appeler avec Skype </h1><br>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
-                <img class="Skype_img" src=" images/RE2WZc5.png" alt="Skype">
+        <div class="col-12 ">
+                <div class="image">
+                        <img class="Skype_img" src=" images/RE2WZc5.png" alt="Skype">
+                </div
         </div>
         <div class="col-12 col-md-6 col-lg-6">
                 <span class="paragraphe">Skype est un logiciel qui permet de 
