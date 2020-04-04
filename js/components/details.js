@@ -69,10 +69,11 @@ const Details = {
 `
 ,
 data(){
+        
 
 }
+
 ,
-methods :{
 
-}
+
 }

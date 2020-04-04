@@ -225,5 +225,25 @@ const accueil = {
 </footer>
         </div>
 
-`
+`,
+data() {
+    return {
+        category : null , 
+    }
+},
+created() {
+   
+    this.fetchData();
+},
+methods: {
+
+    fetchData() {
+        const params = new URLSearchParams();
+        params.append('id', 1);
+        axios.get('http://restezconnecte.azurewebsites.net/api/pages/detail.php?fbclid=IwAR3-bEba7Oto-RATRwoxDDycdVzy7avdjPkAe2e2OSAU3d_A2vadT4YyFeY', params).then(response => {
+            
+            console.log(response);
+        });
+    }
+}
 }
