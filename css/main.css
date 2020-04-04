@@ -1,29 +1,7 @@
-body{
-    background-color: rgb(25, 191, 232);
+.topPart{
+    background-color:rgb(195, 167, 89);
 }
-
-.error{
-    color: rgb(93, 16, 16);
+.logo {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
 }
-
-h1{
-    font-size: 25px;
-}
-
-
-
-ul{
-    list-style-type: none;
-}
-
-nav{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.image{
-    width: 50px;
-    height: auto;
-}
-
