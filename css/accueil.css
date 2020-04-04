@@ -1,0 +1,210 @@
+/******************************
+   RESET
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*******************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********************
+NOT RESET
+**********************/
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+header{
+    background-color: #F6DF9F;
+}
+
+
+
+.logo{
+    margin-top: 1rem;
+    width: 20%;
+}
+
+.h_title{
+    color: #52AAA8;
+}
+
+.m_pour_demarrer, .m_pour_contact{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+  .h_main_text{
+    color: #4F6886;
+    font-family: 'Poppins', sans-serif;
+    font-size: 800;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 25px;
+
+  }
+
+.h_div_img{
+    display: flex;
+    justify-content: center;
+}
+
+  .h_img{
+      margin-top: 14px;
+      margin-bottom: 9px;
+  }
+
+  .m_pour_demarrer{
+      margin-bottom: 2rem;
+}
+
+  .m_div_categories{
+      background-color: #52AAA8;
+      font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+      height: 2.5rem;
+      border-radius: 5px;
+      margin-top: 1.5rem;
+      margin-left: 3%;
+      margin-right: 3%;
+      color: white;
+      padding: 9px 0px;
+      padding-left: 25px;
+      display: flex;
+      align-items: center;
+    
+  }
+
+  .m_card{
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    box-shadow: 0 2px 3px 0 #828282;
+    margin-bottom: 1.4rem;
+    height: 10rem;
+  }
+
+  .m_card h1{
+      text-align: center;
+      color: #4F6886;
+      font-family: 'Open Sans', sans-serif;
+        padding-top: 1rem;
+        font-weight: 700;
+  }
+
+  .m_card div{
+      display: flex;
+      justify-content: center;
+  }
+
+  .m_card img{
+      margin: 0.5rem 0;
+  }
+
+  .m_main_titles{
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+
+  }
+
+
+
+
+
+/*************Footer **********/
+
+footer{
+    height: 7rem;
+    background-color: #F6DF9F;
+}
+
+
+/************* Media Querries **********/
+
+
+@media only screen and (min-width: 999px) {
+    header{
+        padding-bottom: 2rem;
+    }
+
+    .h_main_text{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .logo{
+        width: 8%;
+    }
+    .h_img{
+        width: 80%;
+    }
+
+    .m_main_titles::before,
+    .m_main_titles::after {
+        display: inline-block;
+        content: "";
+        border-top: 3px solid #4F6886;
+        width: 4rem;
+        margin: 0 1rem;
+        transform: translateY(-0.3rem);
+    }
+
+    .m_main_titles::after{
+        width: 60%;
+    }
+}
