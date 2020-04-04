@@ -1,4 +1,4 @@
-const accueil = {
+const Accueil = {
     template: `
     <div>
     <header>
@@ -98,12 +98,15 @@ const accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
-                        <h1>Appeler avec Skype</h1>
-                        <div>
-                            <img src="./images/skype.png" alt="Appeler avec Skype">
+                    <router-link :to="{ name: 'details'}">
+                        <div class="m_card">
+                            <h1>Appeler avec Skype</h1>
+                            <div>
+                                <img src="./images/skype.png" alt="Appeler avec Skype">
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
+
                 </div>
             </div>
         </div>
