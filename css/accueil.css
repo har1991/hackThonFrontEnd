@@ -163,6 +163,10 @@ header{
   }
   .accueil{
   
+    position: relative;
+    top : 10%;
+    left : 10%;
+   
     color: #4F6886;
     font-family: "Open Sans";
     font-size: 18px;
@@ -172,7 +176,9 @@ header{
 
   
 .AppelerTwo{
-   
+    position: relative;
+    top : 10%;
+    left : 15%;
     height: 34px;
     color : rgb(56, 138, 136);
     font-size: 40px;
@@ -189,6 +195,7 @@ header{
     width: 703px;
 }
 .paragraphe{
+
     
     color: #4F6886;
     font-family: "Open Sans";
@@ -234,10 +241,7 @@ header{
     font-size: 20px;
     line-height: 27px;
   }
-  .connect1{
-    height: 99px;
-    width: 865px;
-  }
+  
   .connect2{
 
     color: #4F6886;
