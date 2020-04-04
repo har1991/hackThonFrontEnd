@@ -9,6 +9,7 @@ const accueil = {
             <div>
                 <img class="h_img"  src="images/hero.png" alt="hello">
             </div>
+            
         </div>
     </div>
     
