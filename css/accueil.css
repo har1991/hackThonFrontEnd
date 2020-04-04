@@ -69,7 +69,6 @@ header{
 }
 
 
-
 .logo{
     margin-top: 1rem;
     width: 20%;
@@ -160,9 +159,115 @@ header{
     margin-top: 1.5rem;
     margin-bottom: 1.2rem;
 
+
   }
+  .accueil{
+  
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+
+  
+.AppelerTwo{
+   
+    height: 34px;
+    color : rgb(56, 138, 136);
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.Skype_img{
+   
+    height: 450px;
+    width: 703px;
+}
+.paragraphe{
+    
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 36px;
+}
+.paragrapheInside{
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.telecharger{
+    
+    color: #4F6886;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+
+}
+.SkypeUrl{
+   
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 27px;
+}
+
+  .créerCompte{
+   
+    color: #4F6886;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .créerSkype{
+  
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .connect1{
+    height: 99px;
+    width: 865px;
+  }
+  .connect2{
+
+    color: #4F6886;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+
+  }
+  .connect3{
+
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 25px;
 
 
+  }
+  .ajoute2{
+    color: #4F6886;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+
+  }
+  .ajoute3{
+    color: #4F6886;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 27px;
+
+  }
+  
 
 
 
@@ -207,4 +312,5 @@ footer{
     .m_main_titles::after{
         width: 60%;
     }
+    
 }
