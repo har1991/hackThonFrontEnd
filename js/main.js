@@ -14,8 +14,8 @@
 // `Vue.extend()`, or just a component options object.
 // We'll talk about nested routes later.
 const routes = [
-    {path: '/', name: 'accueil', component: Accueil},
-    
+    {path: '/', name: 'home', component: Accueil},
+    {path: '/accueil', name: 'accueil', component: Accueil},
     {path: '/details', name: 'details', component: Details},
 ];
 
