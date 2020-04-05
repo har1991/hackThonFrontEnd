@@ -1,4 +1,4 @@
-const Arnaque = {
+const Livresnumeriques = {
         template: 
         `
         <div>

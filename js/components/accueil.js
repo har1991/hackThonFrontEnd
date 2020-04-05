@@ -74,12 +74,14 @@ const Accueil = {
             <h1 class="m_main_titles">2. Garder le contact</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
-                        <h1>Envoyer un email</h1>
-                        <div>
-                            <img src="./images/mail.png" alt="Envoyer un email">
+                    <router-link class="m_card_routeur" to="envoyeremail/">
+                        <div class="m_card">
+                            <h1>Envoyer un email</h1>
+                            <div>
+                                <img src="./images/mail.png" alt="Envoyer un email">
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="m_card">
@@ -212,12 +214,14 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
-                        <h1>Livres numériques</h1>
-                        <div>
-                            <img src="./images/livres.png" alt="Livres numérique">
+                    <router-link class="m_card_routeur" to="livres/">
+                        <div class="m_card">
+                            <h1>Livres numériques</h1>
+                            <div>
+                                <img src="./images/livres.png" alt="Livres numérique">
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -228,25 +232,5 @@ const Accueil = {
 </footer>
         </div>
 
-`,
-data() {
-    return {
-        category : null , 
-    }
-},
-created() {
-   
-    this.fetchData();
-},
-methods: {
-
-    fetchData() {
-        const params = new URLSearchParams();
-        params.append('id', 1);
-        axios.get('http://restezconnecte.azurewebsites.net/api/pages/detail.php?fbclid=IwAR3-bEba7Oto-RATRwoxDDycdVzy7avdjPkAe2e2OSAU3d_A2vadT4YyFeY', params).then(response => {
-            
-            console.log(response);
-        });
-    }
-}
+`
 }

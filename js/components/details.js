@@ -72,8 +72,5 @@ const Details = {
 </div>
 `
 ,
-data(){
-        
 
-}
 }
