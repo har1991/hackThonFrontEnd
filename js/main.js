@@ -16,8 +16,8 @@
 const routes = [
     {path: '/', name: 'home', component: Accueil},
     {path: '/accueil', name: 'accueil', component: Accueil},
-    {path: '/details', name: 'details', component: Details},
-    {path: '/actu', name: 'actualite', component: Actualite},
+    {path: '/skype', name: 'skype', component: Skype},
+    {path: '/actualite', name: 'actualite', component: Actualite},
     {path: '/arnaque', name: 'arnaque', component: Arnaque},
     {path: '/envoyeremail', name: 'envoyeremail', component: Envoyeremail},
     {path: '/livres', name: 'livresnumeriques', component: Livresnumeriques}

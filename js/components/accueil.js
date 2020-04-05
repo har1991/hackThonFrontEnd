@@ -37,7 +37,7 @@ const Accueil = {
             <h1 class="m_main_titles">1. Pour démarrer</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Faire une recherche</h1>
                         <div>
                             <img src="./images/recherche.png" alt="Comment faire une recherches">
@@ -45,7 +45,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Naviguer sur internet</h1>
                         <div>
                             <img src="./images/navigation.png" alt="Navigation sur Internet">
@@ -53,7 +53,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Lexique</h1>
                         <div>
                             <img src="./images/lexique.png" alt="Lexique">
@@ -61,7 +61,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Télécharger</h1>
                         <div>
                             <img src="./images/telecharger.png" alt="Comment télécharger">
@@ -84,7 +84,7 @@ const Accueil = {
                     </router-link>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Utiliser Facebook</h1>
                         <div>
                             <img src="./images/facebook.png" alt="Utiliser Facebook">
@@ -92,7 +92,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Utiliser Messenger</h1>
                         <div>
                             <img src="./images/messenger.png" alt="Utiliser Messenger">
@@ -100,7 +100,11 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+<<<<<<< HEAD
                     <router-link class="m_card_routeur" to="details/">
+=======
+                    <router-link class="m_card_routeur" :to="{ name: 'skype'}">
+>>>>>>> e83aceb525b398b445bb0f1a57c56a1378a29c0a
                         <div class="m_card">
                             <h1>Appeler avec Skype</h1>
                             <div>
@@ -116,15 +120,17 @@ const Accueil = {
             <h1 class="m_main_titles">3. Au quotidien</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
-                        <h1>Suivre l'actualité</h1>
-                        <div>
-                            <img src="./images/actu.png" alt="Suivre l'actualité">
+                    <router-link class="m_card_routeur" :to="{ name: 'actualite'}">
+                        <div class="m_card">
+                            <h1>Suivre l'actualité</h1>
+                            <div>
+                                <img src="./images/actu.png" alt="Suivre l'actualité">
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Trouver une recette</h1>
                         <div>
                             <img src="./images/recette.png" alt="Trouver une recett">
@@ -132,7 +138,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Organiser sa journée</h1>
                         <div>
                             <img src="./images/organiser.png" alt="Organiser sa journée">
@@ -140,7 +146,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Faire du sport</h1>
                         <div>
                             <img src="./images/sport.png" alt="Faire du sport">
@@ -153,7 +159,7 @@ const Accueil = {
             <h1 class="m_main_titles">4. Achat et dépense</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Sites de vente en ligne</h1>
                         <div>
                             <img src="./images/venteEnLigne.png" alt="Sites de vente en ligne">
@@ -161,7 +167,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Paiement en ligne</h1>
                         <div>
                             <img src="./images/paiement.png" alt="Paiement en ligne">
@@ -169,7 +175,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Banque en ligne</h1>
                         <div>
                             <img src="./images/banque.png" alt="Banque en ligne">
@@ -178,10 +184,12 @@ const Accueil = {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="m_card">
-                        <h1>Repérer les arnaques</h1>
-                        <div>
-                            <img src="./images/arnaque.png" alt="Repérer les arnaques">
-                        </div>
+                        <router-link class="m_card_routeur" to="arnaque/">
+                            <h1>Repérer les arnaques</h1>
+                            <div>
+                                <img src="./images/arnaque.png" alt="Repérer les arnaques">
+                            </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
@@ -190,7 +198,7 @@ const Accueil = {
             <h1 class="m_main_titles">5. Se divertir</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Musique</h1>
                         <div>
                             <img src="./images/musique.png" alt="Musique en ligne">
@@ -198,7 +206,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Films et séries</h1>
                         <div>
                             <img src="./images/film.png" alt="Films et séries en ligne">
@@ -206,7 +214,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
+                    <div class="m_card not_clickable">
                         <h1>Jeux en ligne</h1>
                         <div>
                             <img src="./images/jeux.png" alt="Jeux en ligne">
@@ -227,9 +235,7 @@ const Accueil = {
         </div>
     </div>
 </main>
-<footer>
 
-</footer>
         </div>
 
 `

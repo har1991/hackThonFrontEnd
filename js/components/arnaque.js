@@ -74,8 +74,6 @@ const Arnaque = {
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
 
 </div>
 `

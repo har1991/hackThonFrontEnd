@@ -81,8 +81,6 @@ const Envoyeremail = {
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
 
 </div>
 `
