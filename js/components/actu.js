@@ -64,8 +64,5 @@ const Actualite = {
 </div>
 `
 ,
-data(){
-        
 
-}
 }

@@ -1,4 +1,4 @@
-const Arnaque = {
+const Envoyeremail = {
         template: 
         `
         <div>
