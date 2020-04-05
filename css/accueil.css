@@ -78,9 +78,9 @@ header{
     color: #52AAA8;
 }
 
-.m_pour_demarrer, .m_pour_contact{
+.m_pour_demarrer, .m_pour_contact ,.m_quotidien ,.m_achat_depense{
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1rem; 
 }
 
   .h_main_text{
