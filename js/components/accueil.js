@@ -98,9 +98,9 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">   
-                    <router-link  to="details/">
+                    <router-link class="m_card_routeur" to="details/">
                         <div class="m_card">
-                            <h1>Appeler avec Skype</h1>
+                            <h1 >Appeler avec Skype</h1>
                             <div>
                                 <img src="./images/skype.png" alt="Appeler avec Skype">
                             </div>
@@ -113,12 +113,14 @@ const Accueil = {
             <h1 class="m_main_titles">3. Au quotidien</h1>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="m_card">
-                        <h1>Suivre l'actualité</h1>
-                        <div>
-                            <img src="./images/actu.png" alt="Suivre l'actualité">
+                    <router-link class="m_card_routeur" to="actu/">
+                        <div class="m_card">
+                            <h1>Suivre l'actualité</h1>
+                            <div>
+                                <img src="./images/actu.png" alt="Suivre l'actualité">
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="m_card">
@@ -174,12 +176,14 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+                <router-link class="m_card_routeur" to="arnaque/">
                     <div class="m_card">
                         <h1>Repérer les arnaques</h1>
                         <div>
                             <img src="./images/arnaque.png" alt="Repérer les arnaques">
                         </div>
                     </div>
+                </router-link>
                 </div>
             </div>
         </div>

@@ -16,7 +16,9 @@
 const routes = [
     {path: '/', name: 'home', component: Accueil},
     {path: '/accueil', name: 'accueil', component: Accueil},
-    {path: '/details', name: 'details', component: Details}
+    {path: '/details', name: 'details', component: Details},
+    {path: '/actu', name: 'actualite', component: Actualite},
+    {path: '/arnaque', name: 'arnaque', component: Arnaque}
 ]
 
 // 3. Create the router instance and pass the `routes` option
