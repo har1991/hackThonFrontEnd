@@ -47,6 +47,7 @@ const Arnaque = {
                         <li>- Ne communiquer jamais vos coordonnées bancaires par téléphone</li>
                         <li>- Vérifiez sur Google le nom d’un site douteux avec le mot « arnaque » dans la recherche. En général, vous n’êtes pas la première victime, ne soyez pas la suivante !</li>
                         <li>- En général, vous ne gagnez rien sans avoir participer à un concours et les gagnants sont toujours contacter personnellement. Attention aux concours également !</li>
+                    </ul>
                 </div>
                 <div class="details_m_text">
                     <p>

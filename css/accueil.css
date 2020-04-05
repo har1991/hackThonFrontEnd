@@ -383,5 +383,8 @@ footer{
       justify-content: flex-end;
 
     }
+    .img_detail{
+      width: 35%;
+    }
     
     }
