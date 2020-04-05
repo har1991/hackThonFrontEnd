@@ -58,8 +58,6 @@ const Actualite = {
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
 
 </div>
 `

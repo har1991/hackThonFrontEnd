@@ -70,9 +70,6 @@ const Livresnumeriques = {
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
-
 </div>
 `
 ,

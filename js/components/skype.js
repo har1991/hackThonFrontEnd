@@ -1,4 +1,4 @@
-const Details = {
+const Skype = {
         template: 
         `
         <div>
@@ -32,7 +32,7 @@ const Details = {
                 <div class="details_m_text">
                     <p>Skype est un logiciel qui permet de
                         discuter à travers le monde. Des millions d'individus et
-                        d'entreprises utilisent Skype pour <span class="paragrapheInside"> effectuer des appels
+                        d'entreprises utilisent Skype pour <span class="important_text"> effectuer des appels
                             vidéo et des appels vocaux gratuits</span> avec une seule personne.
                         Vous pouvez utiliser Skype sur l'appareil qui vous convient le plus :
                         votre mobile, votre ordinateur ou votre tablette.
@@ -66,9 +66,6 @@ const Details = {
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
-
 </div>
 `
 ,
