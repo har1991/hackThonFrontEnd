@@ -100,7 +100,7 @@ const Accueil = {
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <router-link :to="{ name: 'details'}">
+                    <router-link class="m_card_routeur" to="details/">
                         <div class="m_card">
                             <h1>Appeler avec Skype</h1>
                             <div>
