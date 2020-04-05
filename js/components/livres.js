@@ -17,51 +17,48 @@ const Livresnumeriques = {
         <div class="container">
             <div class="div_nav_accueil">
                 <h1 class="accueil">
-                    <router-link class="routeur" to="/">Accueil</router-link> > Repérer les arnaques
+                    <router-link class="routeur" to="/">Accueil</router-link> > Livres numériques
                 </h1>
             </div>
 
 
             <div>
-                <h1 class="title_detail">Repérer les arnaques</h1>
+                <h1 class="title_detail">Livres numériques</h1>
             </div>
             <div>
                 <div class="div_image">
-                    <img class="img_detail" src=" images/photo_page_arnaque.png" alt="Skype">
+                    <img class="img_detail" src=" images/photo_livres.png" alt="Skype">
                 </div>
                 <div class="details_m_text">
                     <p>
-                        Premier réflexe : si vous avez un doute, ne cliquez pas !<br>
-                        Et si vous n’en avez pas ou si vous ne savez pas comment repérer une arnaque, faites une recherche avant de cliquer.
+                        Vous aimez lire mais les livres de poche sont en trop petits caractères ou vous aimeriez faire d’autres choses en même temps, prendre des notes ?<br>
+                        Internet a permis de développer la lecture au-delà de la lecture classique.                    
                     </p>
                 </div>
                 <div class="details_m_text">
                     <p>
-                        Sur internet, on trouve de tout pour nous aider et nous simplifier le quotidien (achats plus rapides, ventes d’occasion, une vidéo pour apprendre à réparer le robinet, guide d’utilisation de votre nouvel appareil photo, recettes originales et saines avec les restes du frigo, …) mais on peut également rencontrer des arnaqueurs.
-                    </p>
+                        Avec les livres numériques, vous pouvez choisir la taille des caractères, souligner des mots, trouver une définition d’un mot sans sortir le dictionnaire, et gagner une place considérable dans les armoires !!!                    </p>
                     <p>
-                        Comme dans la vraie vie, vous ne voyez pas le pickpocket arriver et c’est un peu tard quand vous réalisez que vous n’avez plus votre portefeuille ou votre téléphone. Sur internet, voici quelques conseils pour repérer les malveillants :
+                        Les livres numériques sont disponibles via différents fournisseurs et sur différents supports :
                     </p>
                     <ul>
-                        <li>- Pour les sites sécurisés, utilisez des mots de passe complexes (la plupart des sites vous suggèrent plusieurs astuces et un test de la « force » de votre mot de passe) et ne les donner à personne !</li>
-                        <li>- Ne communiquer jamais vos coordonnées bancaires par téléphone</li>
-                        <li>- Vérifiez sur Google le nom d’un site douteux avec le mot « arnaque » dans la recherche. En général, vous n’êtes pas la première victime, ne soyez pas la suivante !</li>
-                        <li>- En général, vous ne gagnez rien sans avoir participer à un concours et les gagnants sont toujours contacter personnellement. Attention aux concours également !</li>
-                </div>
+                        <li>- Tablettes (Ipad, Samsung, Lenovo, …)</li>
+                        <li>- Liseuses (Kindle, Kobo, … )</li>
+                        <li>- Ordinateurs</li>
+                        <li>- Smartphones</li>
+                    </ul>
+                 </div>
                 <div class="details_m_text">
                     <p>
-                        Plusieurs liens utiles :
+                        Vous pouvez les acheter sur des sites de ventes en ligne (Amazon) ou via les applications de livre numérique (Kindle, Audiobooks, … ) mais il existe déjà beaucoup de livres disponibles gratuitement.<br>
+                        Il existe également des livres audios pour profiter d’un bon bouquin en faisant la cuisine, en bricolant ou en marchant, …
                     </p>
-                    <ul>
-                    <li>Economie: <a class="SkypeUrl" href="https://economie.fgov.be/fr/themes/protection-des-consommateurs/arnaques-la-consommation/comment-reconnaitre-une" target="_blank">Comment reconnaître une arnaque ou un arnaqueur ?</a>
-                    </li>
-                    <li>Test Achat: <a class="SkypeUrl" href="https://www.test-achats.be/hightech/internet/dossier/arnaques-sur-internet-1/denoncer-une-arnaque" target="_blank">Cybercriminalité et une arnaques sur internet</a>
-                    </li>
-                    <li>Cecbelgique: <a class="SkypeUrl" href="https://www.cecbelgique.be/themes/arnaque-tromperie/arnaque-et-fraude/reagir-en-cas-darnaque" target="_blank">Réagir en cas d'arnaque</a>
-                    </li>
-                </ul>
-                
                 </div>
+                <div class="details_m_text">
+                <p>
+                Un petit secret pour les impatients, il existe aussi une application (payante) qui a condensé des livres pour que vous alliez à l’essentiel en un rien de temps: Koober
+                </p>
+            </div>
             </div>
             <div class="big_div_arrow">
                 <a href="#header_details">

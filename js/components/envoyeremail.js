@@ -17,50 +17,58 @@ const Envoyeremail = {
         <div class="container">
             <div class="div_nav_accueil">
                 <h1 class="accueil">
-                    <router-link class="routeur" to="/">Accueil</router-link> > Repérer les arnaques
+                    <router-link class="routeur" to="/">Accueil</router-link> > Envoyer un email
                 </h1>
             </div>
 
 
             <div>
-                <h1 class="title_detail">Repérer les arnaques</h1>
+                <h1 class="title_detail">Envoyer un email</h1>
             </div>
             <div>
                 <div class="div_image">
-                    <img class="img_detail" src=" images/photo_page_arnaque.png" alt="Skype">
+                    <img class="img_detail" src=" images/photo_email.png" alt="Skype">
                 </div>
                 <div class="details_m_text">
                     <p>
-                        Premier réflexe : si vous avez un doute, ne cliquez pas !<br>
-                        Et si vous n’en avez pas ou si vous ne savez pas comment repérer une arnaque, faites une recherche avant de cliquer.
+                        Vous voulez envoyer des informations, des photos ou raconter votre weekend, prendre des nouvelles de la famille, des amis. Tout cela est possible avec un email.<br>
+                        Avant tout, vous devez avoir créé une adresse email. Si ce n'est pas encore le cas, nous vous aidons à en créer une <a href="">ici</a>.
                     </p>
                 </div>
                 <div class="details_m_text">
                     <p>
-                        Sur internet, on trouve de tout pour nous aider et nous simplifier le quotidien (achats plus rapides, ventes d’occasion, une vidéo pour apprendre à réparer le robinet, guide d’utilisation de votre nouvel appareil photo, recettes originales et saines avec les restes du frigo, …) mais on peut également rencontrer des arnaqueurs.
+                        L’email est utilisé essentiellement pour les échanges plus formels ou pour conserver des  conversations et éléments plus simplement (photos, liens). Il se rapproche d’un courrier traditionnel et votre boite email est comme votre boite aux lettres.
                     </p>
+                </div>
+                <div class="details_m_text">
                     <p>
-                        Comme dans la vraie vie, vous ne voyez pas le pickpocket arriver et c’est un peu tard quand vous réalisez que vous n’avez plus votre portefeuille ou votre téléphone. Sur internet, voici quelques conseils pour repérer les malveillants :
+                    Selon votre choix d’hébergement (la marque de la boite aux lettres), il est possible que l’allure soit un peu différente mais vous retrouverez toujours les aspects suivants :
                     </p>
                     <ul>
-                        <li>- Pour les sites sécurisés, utilisez des mots de passe complexes (la plupart des sites vous suggèrent plusieurs astuces et un test de la « force » de votre mot de passe) et ne les donner à personne !</li>
-                        <li>- Ne communiquer jamais vos coordonnées bancaires par téléphone</li>
-                        <li>- Vérifiez sur Google le nom d’un site douteux avec le mot « arnaque » dans la recherche. En général, vous n’êtes pas la première victime, ne soyez pas la suivante !</li>
-                        <li>- En général, vous ne gagnez rien sans avoir participer à un concours et les gagnants sont toujours contacter personnellement. Attention aux concours également !</li>
+                        <li>- Envoyer un email</li>
+                        <li>- Boite de réception</li>
+                        <li>- Boite d’envoi</li>
+                        <li>- Brouillons</li>
+                    </ul>
                 </div>
                 <div class="details_m_text">
                     <p>
-                        Plusieurs liens utiles :
+                        Écrire un email est comme écrire une lettre : vous choisissez le destinataire, un sujet, et lorsque c’est prêt, vous envoyer.
+                        Les boites de messagerie les plus connues sont Gmail et Outlook mais il en existe d'autres.
                     </p>
-                    <ul>
-                    <li>Economie: <a class="SkypeUrl" href="https://economie.fgov.be/fr/themes/protection-des-consommateurs/arnaques-la-consommation/comment-reconnaitre-une" target="_blank">Comment reconnaître une arnaque ou un arnaqueur ?</a>
-                    </li>
-                    <li>Test Achat: <a class="SkypeUrl" href="https://www.test-achats.be/hightech/internet/dossier/arnaques-sur-internet-1/denoncer-une-arnaque" target="_blank">Cybercriminalité et une arnaques sur internet</a>
-                    </li>
-                    <li>Cecbelgique: <a class="SkypeUrl" href="https://www.cecbelgique.be/themes/arnaque-tromperie/arnaque-et-fraude/reagir-en-cas-darnaque" target="_blank">Réagir en cas d'arnaque</a>
-                    </li>
-                </ul>
-                
+                </div>
+                <div class="details_m_text">
+                    <a></a>
+                    <a class="SkypeUrl" href="https://fr.wikihow.com/utiliser-Gmail" target="_blank"><h1 class="details_m_text_title">Comment utiliser Gmail?</h1></a>
+                </div>
+                <div class="div_image">
+                    <img class="img_detail" src=" images/vue-ensemble-Gmail1.png" alt="Skype">
+                </div>
+                <div class="details_m_text">
+                    <h1 class="details_m_text_title">Comment utiliser Outlook?</h1>
+                </div>
+                <div class="div_image">
+                    <img class="img_detail" src=" images/Comment-utiliser-Outlook-2016-Quelques-astuces.png" alt="Skype">
                 </div>
             </div>
             <div class="big_div_arrow">
