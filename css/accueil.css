@@ -98,6 +98,7 @@ header{
 .h_div_img{
     display: flex;
     justify-content: center;
+    
 }
 
   .h_img{
@@ -360,7 +361,7 @@ footer{
         width: 8%;
     }
     .h_img{
-        width: 20%;
+        width:80%;
     }
 
     .m_main_titles::before,
